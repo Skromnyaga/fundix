@@ -30,7 +30,7 @@ describe('Fundix E2E Tests', () => {
   });
 
   // 2. Scroll to How it works section after click on the How it works button
-  it('Should verify How it Works section on homepage', () => {
+  it('2. Should verify How it Works section on homepage', () => {
   headerPage.clickHowItWorksButton();
   homePage.checkHowItWorksMainText();
   //Check sections on the how it works page
